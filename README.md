@@ -10,13 +10,13 @@ two mthods to clone github repo
   1. perl clone <repo>
   2. ./clone <repo>
 ```
-
-# Linux , Mac OSX
+# Install
+## Linux and  Mac OSX
 ```shell
 curl https://raw.githubusercontent.com/hellojukay/clone/master/clone | sudo tee /bin/clone && sudo chmod +x /bin/clone
 ```
 
-# For Windows
+## For Windows
 ```bat
 download clone.exe to path
 ```
