@@ -3,6 +3,7 @@
 
 ![demo](demo.gif)
 
+# Usage
 ```shell
 hellojukay@local clone (master) $ clone -h
 two mthods to clone github repo
