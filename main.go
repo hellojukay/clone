@@ -32,6 +32,8 @@ func main() {
 	var clone = fmt.Sprintf("git clone %s", repo)
 	fmt.Printf("%s\n", clone)
 	var c = exec.Command("git", "clone", repo)
+	c.Stdout = os.Stdout
+	c.Stderr = os.Stderr
 	err := c.Run()
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "run git clone failed %s", err)
