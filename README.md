@@ -20,4 +20,8 @@ curl https://raw.githubusercontent.com/hellojukay/clone/master/clone | sudo tee 
 ```bat
 download clone.exe to path
 ```
+## For gopher
+```
+go get -u github.com/hellojukay/clone
+```
 
