@@ -11,7 +11,7 @@ use warnings;
 
 sub git_clone(@){
     my $origin_url = $_[0];
-    my $url = $origin_url =~ s/github\.com/hub\.fastgit\.org/r;
+    my $url = "https://gh.api.99988866.xyz/" . $origin_url;
     printf "%s\n",$url;
     system("git clone $url");
     my @arr = split(/\/+/, $origin_url =~ s/(\.git)$//r);
