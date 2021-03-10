@@ -1,5 +1,5 @@
 # clone
-`clone` is a command line tool write by perl. It use `https://hub.fastgit.org` to speed up git clone for chinese developer.
+`clone` is a command line tool write by perl. It use `https://gh.api.99988866.xyz/` to speed up git clone for chinese developer.
 
 ![demo](demo.gif)
 
